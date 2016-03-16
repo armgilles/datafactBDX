@@ -17,3 +17,7 @@ Data come from :
 
 If you have question or you are curious, use the [datafactBDX/issues](https://github.com/armgilles/datafactBDX/issues) page.
 
+### Twitter :
+
+You can find all post at [#datafactBDX](https://twitter.com/search?q=%23datafactBDX)
+
