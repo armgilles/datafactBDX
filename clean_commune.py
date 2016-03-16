@@ -27,8 +27,8 @@ paris_insee = ['75101', '75102', '75103','75104','75105','75106','75107','75108'
 commune.loc[commune.COM.isin(paris_insee), 'status'] = u"Capitale d'\xe9tat"
 
 # Fix Mareille status
-marseille_insee = ['13001', '13002', '13003', '13004', '13005', '13006', '13007', '13008',
-                   '13009', '13010', '13011', '13012', '13013', '13014', '13015', '13016']
+marseille_insee = ['13201', '13202', '13203', '13204', '13205', '13206', '13207', '13208',
+                   '13209', '13210', '13211', '13212', '13213', '13214', '13215', '13216']
 
 commune.loc[commune.COM.isin(marseille_insee), 'status'] = u'Pr\xe9fecture de r\xe9gion'
 
