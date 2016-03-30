@@ -6,8 +6,10 @@ Created on Wed Mar 30 10:58:12 2016
 """
 
 import pandas as pd
+import numpy as np
 
-accidents = pd.read_csv('data/accidents-corporels-de-la-circulation-en-france.csv', sep=";")
+accidents = pd.read_csv('data/accidents-corporels-de-la-circulation-en-france.csv', sep=";",
+                        dtype={"Code Insee" : np.dtype('str')})
 
 
 # Il n'éxiste pas de données sur le nombre d'accident sur les vélos en France.
