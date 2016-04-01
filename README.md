@@ -2,7 +2,8 @@
 
 
 - Some funny datafact about Bordeaux Metropole.
-- Using only **open data**
+- Using only **open data** !
+- Try to communicate these results with 140 characters or less with a pictures.
 
 
 ### Data
